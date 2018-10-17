@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nav,
+.banner,
+.about,
+.services,
+.projects,
+.gallery,
+.footer {
+	padding: 30px;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+h1 {
+	font-weight: 700;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	margin: 50px auto; /*center horizontally*/
+	background-image: url("../../assets/images/1.jpg");
+	border-radius: 15px;
+	background-size: cover;
+	border: 5px solid yellow;
+
+
+
+}
+
+.nav {
+	background-image: url("../../assets/images/8.jpeg");
+	height: 100vh;
+	width: 200px;
+	position: fixed;
+	background-size: cover;
+	
+}
+
+
+.nav:hover li {
+	border-bottom: 3px solid #67d1e3;
+	margin-bottom:7px;
+	background-color: lightblue;
+
+}
+
+
+
+
+ul > li {
+	list-style: none;
+	background-color: lightyellow;
+	margin-bottom: 10px;
+	line-height: 48px; /*base font size = 16px. 16*13 = 48px*/
+	text-align: center;
+	text-shadow: 1px 2px white;
+	border-radius: 20px;
+
+}
+
+ul > li > a {
+	text-decoration: none;
+}
+
+
+
+
+.main {
+	background-color: lightgrey;
+	margin-left: 200px;
+
+}
+
+.banner {
+	background-image: url("../../assets/images/2.jpeg");
+	height: 100vh;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.box {
+	border: 5px solid white;
+	text-align: center;
+	width: 60%;
+	padding: 40px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700px;
+	border-radius: 20px;
+	
+}
+
+
+
+.about {
+	background-image: url("../../assets/images/3.jpeg");
+	height: 700px;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'K2D', sans-serif;
+}
+
+.about p{
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.about p:hover{
+	background-color: white;
+}
+
+
+
+.services {
+	background-image: url("../../assets/images/4.jpeg");
+	height: 300px;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.services p:hover {
+	background-color: white;
+
+}
+
+
+.services h3:hover {
+	background-color: white;
+
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+
+	
+}
+
+.projects {
+	background-image: url("../../assets/images/5.jpeg");
+	height: 300px;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gallery {
+	background-image: url("../../assets/images/6.jpeg");
+	height: 400px;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.footer {
+	background-image: url("../../assets/images/7.jpeg");
+	min-height: 50px;
+	/*height: 100vh;*/
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.column {
+	border: 2px solid white;
+	width: 31%;
+	margin-left: 1.16%;
+	shape-margin: 1.16%;
+	float: left;
+	/*background-color: lightpink;*/
+	min-height: 200px;
+}
+
+.column > h3 {
+	color: purple;
+	text-align: center;
+
+}
+
+
+img[alt*="service"] {
+	border: 1px solid white;
+	width: 60px;
+	height: 60px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.no-top {
+	margin-top: 0;
+	color: white;
+}
+
+
+.gallery > .column { /*override makes 4 equal column*/
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+
+img[alt*=gallery] {
+	width: 100%;
+	height: 200px;
+	display: block;
+	border: 1px solid black;
+}
+
+img[alt*=gallery]:hover {
+	width: 400px;
+	height: 400px;
+
+}
+
+
+
+
+
+img[alt*="social"] {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+
+.contact {
+	float: right;
+}
+#balik {
+	margin-left: 225px;
+}
+
+
+h2 {
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
