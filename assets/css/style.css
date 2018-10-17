@@ -232,6 +232,7 @@ img[alt*=gallery] {
 img[alt*=gallery]:hover {
 	width: 400px;
 	height: 400px;
+	position: absolute;
 
 }
 
